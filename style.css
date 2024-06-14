@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url('/imagens/bg.png');
+
+}
+
+header {
+    background-color: #1E1F22;
+    z-index: -2;
+    text-align: center;
+}
+
+nav a {
+    padding: 0px 10px;
+    text-decoration: none;
+}
