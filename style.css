@@ -13,7 +13,27 @@
 
 body {
     background-image: url('/imagens/bg.png');
+}
 
+body::-webkit-scrollbar {
+    width: 10px;
+    /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(55, 55, 55, 0.3);
+    /* Cor da trilha da barra de rolagem */
+    border-radius: 10px;
+    /* Bordas arredondadas da trilha */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(37, 37, 37, 0.8);
+    /* Cor do "polegar" da barra de rolagem */
+    border-radius: 10px;
+    /* Bordas arredondadas do polegar */
+    border: 1px solid rgba(55, 55, 55, 0.3);
+    /* Espaço ao redor do polegar */
 }
 
 header {
@@ -49,7 +69,10 @@ h1 {
     margin: 15px auto;
     border-radius: var(--Borders);
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+
 }
 
 /* .boxImagem,
