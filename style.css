@@ -6,6 +6,11 @@
     color: white;
 }
 
+:root {
+    --corBotoesH2Texto: #FFAE00;
+    --Borders: 10px;
+}
+
 body {
     background-image: url('/imagens/bg.png');
 
@@ -18,6 +23,55 @@ header {
 }
 
 nav a {
-    padding: 0px 10px;
+    margin: 0px 10px;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--corBotoesH2Texto);
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imagemProduto {
+    width: 400px;
+}
+
+.boxProduto {
+    background-color: rgba(37, 37, 37, 0.8);
+    width: 850px;
+    margin: 15px auto;
+    border-radius: var(--Borders);
+}
+
+.boxImagem,
+.boxTexto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boxTexto {
+    width: 400px;
+}
+
+h1,
+h2,
+h3,
+button {
+    margin: 10px 0px;
+}
+
+button {
+    background-color: var(--corBotoesH2Texto);
+    padding: 15px;
+    border: none;
+    border-radius: var(--Borders);
+    width: 150px;
+    cursor: pointer;
 }
