@@ -48,13 +48,17 @@ h1 {
     width: 850px;
     margin: 15px auto;
     border-radius: var(--Borders);
+    display: flex;
+    align-items: center;
 }
 
-.boxImagem,
+/* .boxImagem,
 .boxTexto {
-    display: inline-block;
-    vertical-align: middle;
-}
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+} */
 
 .boxTexto {
     width: 400px;
