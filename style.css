@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url('cardapio/imagens/bg.png');
+    background-image: url('https://levibf.github.io/cardapio/imagens/bg.png');
 }
 
 body::-webkit-scrollbar {
